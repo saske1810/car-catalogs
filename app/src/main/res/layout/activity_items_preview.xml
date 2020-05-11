@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItemsPreviewActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="133dp"
+        android:layout_height="36dp"
+
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="130dp"
+
+
+        android:text="Плотность электролита в АКБ"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="141dp"
+        android:layout_height="56dp"
+
+        android:layout_marginStart="250dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="130dp"
+        android:text="Сопротивление свечи зажигания"
+
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="250dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="270dp"
+        android:text="Угол опережения зажигания"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="140dp"
+        android:layout_height="38dp"
+
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="270dp"
+        android:text="Рабочая жидкостьв гидроусилителе"
+
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="142dp"
+        android:layout_height="45dp"
+
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="400dp"
+        android:text="Рабочая жидкость тормозной системы"
+
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="250dp"
+        android:layout_marginLeft="248dp"
+        android:layout_marginTop="400dp"
+        android:text="Датчик детонации,сопротивления"
+        android:textSize="13sp"
+         />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="520dp"
+        android:text="Рабочая жидкость системы охлаждения"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="250dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="520dp"
+        android:text="Сопротивление динамиков"
+
+        android:textSize="13sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="200dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="13sp"
+        android:text="1.23-1.28" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="200dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="не менее 10 Моль"
+        android:textSize="13sp"/>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="315dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="9-11°"
+        android:textSize="13sp"/>
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="315dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="ATF Dexron"
+        android:textSize="13sp"/>
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="SAE J 1703"
+        android:textSize="13sp"/>
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="450dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="560 кОм"
+        android:textSize="13sp"/>
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="570dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Дистиллированная вода"
+        android:textSize="10sp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="570dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="4 Ом"
+        android:textSize="13sp"/>
+
+</RelativeLayout>
